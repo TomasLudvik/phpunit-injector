@@ -1,10 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Zalas\Injector\PHPUnit\TestListener;
+namespace Zalas\Injector\PHPUnit\TestCase;
 
 use Psr\Container\ContainerInterface;
-use Zalas\Injector\PHPUnit\TestCase\ServiceContainerTestCase;
 use Zalas\Injector\Service\ContainerFactory;
 
 final class TestCaseContainerFactory implements ContainerFactory
